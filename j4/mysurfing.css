@@ -1,0 +1,9 @@
+.jumbotron{
+
+    background-image: url(surfing3.jpg);
+    /* Centre l'image et la met bien sur tous les écrans */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
