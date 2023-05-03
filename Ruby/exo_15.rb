@@ -4,4 +4,3 @@ for i in datenais..2023
 puts "En"
 puts i  
 puts "Vous etes agee de #{i - datenais}"
-end
