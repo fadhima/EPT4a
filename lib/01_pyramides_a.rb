@@ -9,7 +9,7 @@ def wtf_pyramide
         i = 1
         j = 0
         
-        while i <= n/2 + 1
+        while i <= n/2 + 1  
             y = i + j
             puts '#' * y
             puts " "
@@ -18,8 +18,10 @@ def wtf_pyramide
         end
         while y <= n and y >= 0
             y = y - 2
+            if y >= 0
             puts '#' * y
             puts " " 
+            end
        end
     end
 end
